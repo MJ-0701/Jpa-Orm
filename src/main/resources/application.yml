@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+
+spring:
+  datasource:
+    url:  jdbc:h2:~/test
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  sql:
+    init:
+      mode: always
+#      schema-locations: classpath:h2/schema.sql # mybatis ? sql ?? ? ?? ??
+#      data-locations: classpath:h2/data.sql
+
